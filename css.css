@@ -442,7 +442,7 @@ body {
     .box {
         position: relative;
         margin-top: 0;
-        margin-left: 15vw;
+        margin-left: 10%;
         left: 0;
         width: 300px;
         height: 300px;
@@ -2081,8 +2081,9 @@ nav {
 
 @media (max-width: 768px){
     .menu2 {
+        height: auto;
         position: fixed;
-        top: -100%;
+        left: -100%;
         gap: 0;
         flex-direction: column;
         background-color: #121212;
@@ -2090,13 +2091,13 @@ nav {
         text-align: center;
         transition: 0.3s;
         margin: 0 0;
-        height: 50%;
+        top: 7%;
     }
     .menu2 a {
         margin: 12px 0;
     }
     .menu2.active {
-        top: 0;
+        left: 0;
     }
 }
 
