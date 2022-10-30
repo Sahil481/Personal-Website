@@ -25,6 +25,12 @@ btn.addEventListener('click', function(e){
 
 const hamburger = document.querySelector(".hamburger");
 
-hamburger.addEventListener("click", function (){
-  this.classList.toggle('is-active');
+hamburger.addEventListener('click', function() {
+  this.classList.toggle("is-active");
+  document.querySelector(".menu2").classList.toggle("active")
 })
+
+function removeMenu () {
+  hamburger.classList.toggle("is-active")
+  document.querySelector(".menu2").classList.toggle("active")
+}
